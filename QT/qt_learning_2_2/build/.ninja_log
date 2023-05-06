@@ -1,0 +1,19 @@
+# ninja log v5
+589	4074	7049824651968322	CMakeFiles/MainWindow.dir/src/MainWindow.cpp.obj	91b45f3eeadff9f0
+100	120	0	clean	ccfb5d10b2a0bf90
+645	4022	7049824651459696	CMakeFiles/MainWindow.dir/src/main.cpp.obj	f92434217346749f
+545	3925	7049824650462376	CMakeFiles/MainWindow.dir/MainWindow_autogen/mocs_compilation.cpp.obj	57d8fa8dedcd1b6e
+7	398	7049826512189378	C:/Users/zhu14/code/QT/qt_learning_2_2/build/MainWindow_autogen/mocs_compilation.cpp	dd0418a145edba4a
+7	398	7049826512189378	C:/Users/zhu14/code/QT/qt_learning_2_2/build/MainWindow_autogen/timestamp	dd0418a145edba4a
+4074	4392	7049824654822114	C:/Users/zhu14/code/QT/qt_learning_2_2/bin/MainWindow.exe	aebf3907094ea992
+7	398	7049826512189378	MainWindow_autogen/mocs_compilation.cpp	dd0418a145edba4a
+7	398	7049826512189378	MainWindow_autogen/timestamp	dd0418a145edba4a
+2	99	0	CMakeFiles/clean.additional	9ff9deef3d0c54c1
+10	567	7049827253927943	MainWindow_autogen/timestamp	dd0418a145edba4a
+10	567	7049827253927943	MainWindow_autogen/mocs_compilation.cpp	dd0418a145edba4a
+10	567	7049827253927943	C:/Users/zhu14/code/QT/qt_learning_2_2/build/MainWindow_autogen/timestamp	dd0418a145edba4a
+10	567	7049827253927943	C:/Users/zhu14/code/QT/qt_learning_2_2/build/MainWindow_autogen/mocs_compilation.cpp	dd0418a145edba4a
+568	3846	7049827287831890	CMakeFiles/MainWindow.dir/MainWindow_autogen/mocs_compilation.cpp.obj	57d8fa8dedcd1b6e
+620	4000	7049827289401635	CMakeFiles/MainWindow.dir/src/MainWindow.cpp.obj	91b45f3eeadff9f0
+674	4020	7049827289611073	CMakeFiles/MainWindow.dir/src/main.cpp.obj	f92434217346749f
+4020	4330	7049827292386806	C:/Users/zhu14/code/QT/qt_learning_2_2/bin/MainWindow.exe	aebf3907094ea992

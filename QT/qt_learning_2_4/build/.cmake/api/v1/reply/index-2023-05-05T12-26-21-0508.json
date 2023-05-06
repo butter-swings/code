@@ -1,0 +1,51 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"multiConfig" : false,
+			"name" : "Ninja"
+		},
+		"paths" : 
+		{
+			"cmake" : "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/bin/cmake.exe",
+			"cpack" : "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/bin/cpack.exe",
+			"ctest" : "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/bin/ctest.exe",
+			"root" : "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 3,
+			"minor" : 26,
+			"patch" : 3,
+			"string" : "3.26.3",
+			"suffix" : ""
+		}
+	},
+	"objects" : 
+	[
+		{
+			"jsonFile" : "codemodel-v2-084f0f32ba7012f547d6.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 5
+			}
+		}
+	],
+	"reply" : 
+	{
+		"codemodel-v2" : 
+		{
+			"jsonFile" : "codemodel-v2-084f0f32ba7012f547d6.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 5
+			}
+		}
+	}
+}

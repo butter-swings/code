@@ -1,0 +1,14 @@
+# ninja log v5
+102	122	0	clean	ccfb5d10b2a0bf90
+615	3698	7049878217327309	CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.obj	80ebcf49bf2171e7
+758	1171	7049878191867072	CMakeFiles/mainwindow.dir/qrc_resource.cpp.obj	33ba2cefb71c06bf
+703	4125	7049878221625755	CMakeFiles/mainwindow.dir/src/mainwindow.cpp.obj	f6eab036912792c7
+9	564	7049878184942452	C:/Users/zhu14/code/QT/qt_learning_2_4/build/mainwindow_autogen/mocs_compilation.cpp	6813f7afd31187f7
+9	564	7049878184942452	C:/Users/zhu14/code/QT/qt_learning_2_4/build/mainwindow_autogen/timestamp	6813f7afd31187f7
+4125	4415	7049878224183880	C:/Users/zhu14/code/QT/qt_learning_2_4/bin/mainwindow.exe	efe8ebc01e6369a1
+565	615	7049878186631101	C:/Users/zhu14/code/QT/qt_learning_2_4/build/qrc_resource.cpp	94a21afa28f483d4
+565	615	7049878186631101	qrc_resource.cpp	94a21afa28f483d4
+9	564	7049878184942452	mainwindow_autogen/mocs_compilation.cpp	6813f7afd31187f7
+4	101	0	CMakeFiles/clean.additional	9ff9deef3d0c54c1
+658	3786	7049878218125130	CMakeFiles/mainwindow.dir/src/main.cpp.obj	eb23493d03d4bb0f
+9	564	7049878184942452	mainwindow_autogen/timestamp	6813f7afd31187f7

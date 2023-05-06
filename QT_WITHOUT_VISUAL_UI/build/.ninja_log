@@ -1,0 +1,9 @@
+# ninja log v5
+4	518	7049977885247729	qt_test_autogen/timestamp	1c068adb720518eb
+4	518	7049977885247729	qt_test_autogen/mocs_compilation.cpp	1c068adb720518eb
+4	518	7049977885247729	C:/Users/zhu14/code/QT_WITHOUT_VISUAL_UI/build/qt_test_autogen/timestamp	1c068adb720518eb
+4	518	7049977885247729	C:/Users/zhu14/code/QT_WITHOUT_VISUAL_UI/build/qt_test_autogen/mocs_compilation.cpp	1c068adb720518eb
+519	2933	7049977910336243	CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.obj	d83e7a2a307cedde
+563	3140	7049977912430364	CMakeFiles/qt_test.dir/src/main.cpp.obj	20d31a8000a6a774
+610	3169	7049977912752126	CMakeFiles/qt_test.dir/src/mainwindow.cpp.obj	c07a18058fefee36
+3170	3448	7049977915138304	C:/Users/zhu14/code/QT_WITHOUT_VISUAL_UI/bin/qt_test.exe	c1debe635ee2f5a6

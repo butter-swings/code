@@ -1,0 +1,5 @@
+C:/Users/zhu14/code/QT_WITHOUT_VISUAL_UI/build/CMakeFiles/qt_test.dir
+C:/Users/zhu14/code/QT_WITHOUT_VISUAL_UI/build/CMakeFiles/edit_cache.dir
+C:/Users/zhu14/code/QT_WITHOUT_VISUAL_UI/build/CMakeFiles/rebuild_cache.dir
+C:/Users/zhu14/code/QT_WITHOUT_VISUAL_UI/build/CMakeFiles/qt_test_autogen_timestamp_deps.dir
+C:/Users/zhu14/code/QT_WITHOUT_VISUAL_UI/build/CMakeFiles/qt_test_autogen.dir
