@@ -8,11 +8,11 @@
     }
   },
   {
-    "name": "GCC_x86_64-ucrt-posix-seh",
+    "name": "GCC_x86_64-ucrt-seh-posix",
     "generator":"MinGW Makefiles",
     "compilers": {
-      "C": "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/current/bin/gcc.exe",
-      "CXX": "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/current/bin/g++.exe"
+      "C": "D:/ScoopApp/Scoop/apps/mingw/current/bin/gcc.exe",
+      "CXX": "D:/ScoopApp/Scoop/apps/mingw/current/bin/g++.exe"
     }
   }
 ]

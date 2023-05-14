@@ -1,7 +1,6 @@
 #ifndef _MSTRING_H_
 #define _MSTRING_H_
 
-#include <cstddef>
 #include <ostream>
 
 class String;

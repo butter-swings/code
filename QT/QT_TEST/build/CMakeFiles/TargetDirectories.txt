@@ -1,5 +1,0 @@
-C:/Users/zhu14/code/QT/QT_TEST/build/CMakeFiles/QT_TEST.dir
-C:/Users/zhu14/code/QT/QT_TEST/build/CMakeFiles/edit_cache.dir
-C:/Users/zhu14/code/QT/QT_TEST/build/CMakeFiles/rebuild_cache.dir
-C:/Users/zhu14/code/QT/QT_TEST/build/CMakeFiles/QT_TEST_autogen_timestamp_deps.dir
-C:/Users/zhu14/code/QT/QT_TEST/build/CMakeFiles/QT_TEST_autogen.dir

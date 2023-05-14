@@ -1,0 +1,7 @@
+-IC:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/include
+-IC:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI
+-IC:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build
+-DWIN32
+-o
+C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/include/moc_person.cpp
+C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/include/person.h

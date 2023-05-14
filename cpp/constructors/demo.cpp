@@ -26,6 +26,7 @@ int main(int argc, char** argv)
   std::endl(std::cout);
   
   // move constructor
+  // avoid RVO
   X move_x = std::move(getX());
   std::endl(std::cout);
 

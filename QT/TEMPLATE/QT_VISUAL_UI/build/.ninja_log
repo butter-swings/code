@@ -1,0 +1,16 @@
+# ninja log v5
+5	344	7054968630723360	QT_UI_autogen/mocs_compilation.cpp	de87bafe5a27d110
+402	603	7054968633691527	CMakeFiles/QT_UI.dir/QT_UI_autogen/mocs_compilation.cpp.obj	ffc2550af89ab7d8
+447	2805	7054968656363048	CMakeFiles/QT_UI.dir/include/moc_mainwindow.cpp.obj	93637ba45e16042
+5	344	7054968630723360	C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/QT_UI_autogen/timestamp	de87bafe5a27d110
+350	401	7054968632441784	ui_mainwindow.h	5d66f5ea077b71d0
+5	344	7054968630723360	C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/QT_UI_autogen/mocs_compilation.cpp	de87bafe5a27d110
+2	95	0	CMakeFiles/clean.additional	9ff9deef3d0c54c1
+350	401	7054968632441784	C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/ui_mainwindow.h	5d66f5ea077b71d0
+344	400	7054968632441784	C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/include/moc_mainwindow.cpp	e895880b11c8c870
+494	3064	7054968658862491	CMakeFiles/QT_UI.dir/src/main.cpp.obj	c4a06b5035636dff
+344	400	7054968632441784	include/moc_mainwindow.cpp	e895880b11c8c870
+3163	3467	7054968662713146	C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/bin/QT_UI.exe	75c26cf05bdbdeec
+5	344	7054968630723360	QT_UI_autogen/timestamp	de87bafe5a27d110
+544	3163	7054968659955995	CMakeFiles/QT_UI.dir/src/mainwindow.cpp.obj	cc892ac41c38f3ba
+95	114	0	clean	ccfb5d10b2a0bf90

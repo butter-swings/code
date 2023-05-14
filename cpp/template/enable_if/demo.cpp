@@ -1,10 +1,12 @@
+#include <algorithm>
 #include <iostream>
 #include <type_traits>
 #include <utility>
 #include <string>
 
 template <typename T>
-using typeToString = typename std::enable_if<std::is_convertible<T, std::string>::value>::type;
+using typeToString = typename std::enable_if<
+                              std::is_convertible<T, std::string>::value>::type;
 
 // template <typename T>
 // concept test = std::is_convertible<T, std::string>::value;

@@ -1,5 +1,0 @@
-C:/Users/zhu14/code/QT_VISUAL_UI/build/CMakeFiles/QT_UI.dir
-C:/Users/zhu14/code/QT_VISUAL_UI/build/CMakeFiles/edit_cache.dir
-C:/Users/zhu14/code/QT_VISUAL_UI/build/CMakeFiles/rebuild_cache.dir
-C:/Users/zhu14/code/QT_VISUAL_UI/build/CMakeFiles/QT_UI_autogen_timestamp_deps.dir
-C:/Users/zhu14/code/QT_VISUAL_UI/build/CMakeFiles/QT_UI_autogen.dir

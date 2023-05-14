@@ -1,0 +1,18 @@
+# ninja log v5
+4	392	7054241756889650	qt_learning_3_1_autogen/mocs_compilation.cpp	8a63acd8172f978b
+4	392	7054241756889650	C:/Users/zhu14/code/QT/qt_learning_3_1/build/qt_learning_3_1_autogen/mocs_compilation.cpp	8a63acd8172f978b
+5373	5693	7054241810468067	C:/Users/zhu14/code/QT/qt_learning_3_1/bin/qt_learning_3_1.exe	53170f62576c7c1d
+773	4165	7054241795159929	CMakeFiles/qt_learning_3_1.dir/src/person.cpp.obj	4b1ce14793882bc7
+586	4446	7054241798440236	CMakeFiles/qt_learning_3_1.dir/include/moc_mainwindow.cpp.obj	423a7508dc460356
+4	392	7054241756889650	C:/Users/zhu14/code/QT/qt_learning_3_1/build/qt_learning_3_1_autogen/timestamp	8a63acd8172f978b
+642	4714	7054241801095723	CMakeFiles/qt_learning_3_1.dir/src/main.cpp.obj	5fd998e6222fbad3
+399	484	7054241758920311	include/moc_mainwindow.cpp	350e71262dacb17c
+534	3858	7054241792035825	CMakeFiles/qt_learning_3_1.dir/include/moc_person.cpp.obj	e38cc501975dcc23
+399	484	7054241758920311	C:/Users/zhu14/code/QT/qt_learning_3_1/build/include/moc_mainwindow.cpp	350e71262dacb17c
+487	897	7054241760482375	CMakeFiles/qt_learning_3_1.dir/qt_learning_3_1_autogen/mocs_compilation.cpp.obj	36a3ff6ea8420a2c
+407	486	7054241759076517	ui_mainwindow.h	408edc1670074092
+704	5372	7054241807812544	CMakeFiles/qt_learning_3_1.dir/src/mainwindow.cpp.obj	59a378a0d737c18d
+393	482	7054241758920311	C:/Users/zhu14/code/QT/qt_learning_3_1/build/include/moc_person.cpp	6406e2a1b36a1503
+407	486	7054241759076517	C:/Users/zhu14/code/QT/qt_learning_3_1/build/ui_mainwindow.h	408edc1670074092
+393	482	7054241758920311	include/moc_person.cpp	6406e2a1b36a1503
+4	392	7054241756889650	qt_learning_3_1_autogen/timestamp	8a63acd8172f978b

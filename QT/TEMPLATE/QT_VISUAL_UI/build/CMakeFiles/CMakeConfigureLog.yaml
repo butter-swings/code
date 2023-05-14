@@ -1,0 +1,268 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Windows - 6.2.9200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/ScoopApp/Scoop/apps/llvm/current/bin/clang++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/CMakeFiles/3.26.3/CompilerIdCXX/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/CMakeFiles/CMakeScratch/TryCompile-l0pcgu"
+      binary: "C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/CMakeFiles/CMakeScratch/TryCompile-l0pcgu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/CMakeFiles/CMakeScratch/TryCompile-l0pcgu
+        
+        Run Build Command(s):D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/current/bin/ninja.exe -v cmTC_50076 && [1/2] D:\\ScoopApp\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_50076.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_50076.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_50076.dir/CMakeCXXCompilerABI.cpp.obj -c D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        [2/2] cmd.exe /C "cd . && D:\\ScoopApp\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_50076.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_50076.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_50076.lib -Xlinker /pdb:cmTC_50076.pdb -Xlinker /version:0.0     && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/CMakeFiles/CMakeScratch/TryCompile-uneoe4"
+      binary: "C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/CMakeFiles/CMakeScratch/TryCompile-uneoe4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/CMakeFiles/CMakeScratch/TryCompile-uneoe4
+        
+        Run Build Command(s):D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/current/bin/ninja.exe -v cmTC_e7a5a && [1/2] D:\\ScoopApp\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_e7a5a.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_e7a5a.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_e7a5a.dir/feature_tests.cxx.obj -c C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/CMakeFiles/CMakeScratch/TryCompile-uneoe4/feature_tests.cxx
+        [2/2] cmd.exe /C "cd . && D:\\ScoopApp\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_e7a5a.dir/feature_tests.cxx.obj -o cmTC_e7a5a.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_e7a5a.lib -Xlinker /pdb:cmTC_e7a5a.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/CMakeFiles/CMakeScratch/TryCompile-888n57"
+      binary: "C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/CMakeFiles/CMakeScratch/TryCompile-888n57"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/CMakeFiles/CMakeScratch/TryCompile-888n57
+        
+        Run Build Command(s):D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/current/bin/ninja.exe -v cmTC_2bf4c && [1/2] D:\\ScoopApp\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_2bf4c.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_2bf4c.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_2bf4c.dir/feature_tests.cxx.obj -c C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/CMakeFiles/CMakeScratch/TryCompile-888n57/feature_tests.cxx
+        [2/2] cmd.exe /C "cd . && D:\\ScoopApp\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_2bf4c.dir/feature_tests.cxx.obj -o cmTC_2bf4c.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_2bf4c.lib -Xlinker /pdb:cmTC_2bf4c.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Windows - 6.2.9200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/ScoopApp/Scoop/apps/llvm/current/bin/clang++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/CMakeFiles/3.26.3/CompilerIdCXX/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/CMakeFiles/CMakeScratch/TryCompile-1tmls6"
+      binary: "C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/CMakeFiles/CMakeScratch/TryCompile-1tmls6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/CMakeFiles/CMakeScratch/TryCompile-1tmls6
+        
+        Run Build Command(s):D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/current/bin/ninja.exe -v cmTC_51d98 && [1/2] D:\\ScoopApp\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_51d98.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_51d98.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_51d98.dir/CMakeCXXCompilerABI.cpp.obj -c D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        [2/2] cmd.exe /C "cd . && D:\\ScoopApp\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_51d98.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_51d98.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_51d98.lib -Xlinker /pdb:cmTC_51d98.pdb -Xlinker /version:0.0     && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/CMakeFiles/CMakeScratch/TryCompile-72p8aw"
+      binary: "C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/CMakeFiles/CMakeScratch/TryCompile-72p8aw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/CMakeFiles/CMakeScratch/TryCompile-72p8aw
+        
+        Run Build Command(s):D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/current/bin/ninja.exe -v cmTC_28755 && [1/2] D:\\ScoopApp\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_28755.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_28755.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_28755.dir/feature_tests.cxx.obj -c C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/CMakeFiles/CMakeScratch/TryCompile-72p8aw/feature_tests.cxx
+        [2/2] cmd.exe /C "cd . && D:\\ScoopApp\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_28755.dir/feature_tests.cxx.obj -o cmTC_28755.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_28755.lib -Xlinker /pdb:cmTC_28755.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/CMakeFiles/CMakeScratch/TryCompile-67cv29"
+      binary: "C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/CMakeFiles/CMakeScratch/TryCompile-67cv29"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/CMakeFiles/CMakeScratch/TryCompile-67cv29
+        
+        Run Build Command(s):D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/current/bin/ninja.exe -v cmTC_b90f9 && [1/2] D:\\ScoopApp\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_b90f9.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_b90f9.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_b90f9.dir/feature_tests.cxx.obj -c C:/Users/zhu14/code/QT/TEMPLATE/QT_VISUAL_UI/build/CMakeFiles/CMakeScratch/TryCompile-67cv29/feature_tests.cxx
+        [2/2] cmd.exe /C "cd . && D:\\ScoopApp\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_b90f9.dir/feature_tests.cxx.obj -o cmTC_b90f9.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_b90f9.lib -Xlinker /pdb:cmTC_b90f9.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+...

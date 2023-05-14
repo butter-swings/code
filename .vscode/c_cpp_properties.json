@@ -10,7 +10,7 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "D:\\ScoopApp\\Scoop\\apps\\mingw-winlibs-ucrt\\current\\bin\\gcc.exe",
+            "compilerPath": "D:\\ScoopApp\\Scoop\\apps\\mingw\\current\\bin\\gcc.exe",
             "intelliSenseMode": "windows-gcc-x64",
             "cppStandard": "c++23"
         }

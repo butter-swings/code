@@ -1,0 +1,7 @@
+-IC:/Users/zhu14/code/QT/qt_learning_4_1/include
+-IC:/Users/zhu14/code/QT/qt_learning_4_1
+-IC:/Users/zhu14/code/QT/qt_learning_4_1/build
+-DWIN32
+-o
+C:/Users/zhu14/code/QT/qt_learning_4_1/build/include/moc_widget.cpp
+C:/Users/zhu14/code/QT/qt_learning_4_1/include/widget.h

@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/zhu14/code/QT/qt_learning_4_1/build",
+  "command": "D:\\ScoopApp\\Scoop\\apps\\mingw\\current\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/qt_learning_4_1.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_learning_4_1.dir\\qt_learning_4_1_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\zhu14\\code\\QT\\qt_learning_4_1\\build\\qt_learning_4_1_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/zhu14/code/QT/qt_learning_4_1/build/qt_learning_4_1_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/qt_learning_4_1.dir/qt_learning_4_1_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/zhu14/code/QT/qt_learning_4_1/build",
+  "command": "D:\\ScoopApp\\Scoop\\apps\\mingw\\current\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/qt_learning_4_1.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_learning_4_1.dir\\include\\moc_widget.cpp.obj -c C:\\Users\\zhu14\\code\\QT\\qt_learning_4_1\\build\\include\\moc_widget.cpp",
+  "file": "C:/Users/zhu14/code/QT/qt_learning_4_1/build/include/moc_widget.cpp",
+  "output": "CMakeFiles/qt_learning_4_1.dir/include/moc_widget.cpp.obj"
+},
+{
+  "directory": "C:/Users/zhu14/code/QT/qt_learning_4_1/build",
+  "command": "D:\\ScoopApp\\Scoop\\apps\\mingw\\current\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/qt_learning_4_1.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_learning_4_1.dir\\src\\main.cpp.obj -c C:\\Users\\zhu14\\code\\QT\\qt_learning_4_1\\src\\main.cpp",
+  "file": "C:/Users/zhu14/code/QT/qt_learning_4_1/src/main.cpp",
+  "output": "CMakeFiles/qt_learning_4_1.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/zhu14/code/QT/qt_learning_4_1/build",
+  "command": "D:\\ScoopApp\\Scoop\\apps\\mingw\\current\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/qt_learning_4_1.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_learning_4_1.dir\\src\\widget.cpp.obj -c C:\\Users\\zhu14\\code\\QT\\qt_learning_4_1\\src\\widget.cpp",
+  "file": "C:/Users/zhu14/code/QT/qt_learning_4_1/src/widget.cpp",
+  "output": "CMakeFiles/qt_learning_4_1.dir/src/widget.cpp.obj"
+}
+]
