@@ -1,0 +1,4 @@
+C:/Users/admin/code/QT/qt_learning_4_2/build/CMakeFiles/qt_learning_4_2.dir
+C:/Users/admin/code/QT/qt_learning_4_2/build/CMakeFiles/edit_cache.dir
+C:/Users/admin/code/QT/qt_learning_4_2/build/CMakeFiles/rebuild_cache.dir
+C:/Users/admin/code/QT/qt_learning_4_2/build/CMakeFiles/qt_learning_4_2_autogen.dir

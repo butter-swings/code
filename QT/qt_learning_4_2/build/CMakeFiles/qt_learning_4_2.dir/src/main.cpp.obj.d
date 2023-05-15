@@ -1,8 +1,9 @@
-CMakeFiles/qt_learning_4_1.dir/src/widget.cpp.obj: \
- C:\Users\admin\code\QT\qt_learning_4_1\src\widget.cpp \
- E:/Qt/5.15.2/mingw81_64/include/QtCore/QString \
- E:/Qt/5.15.2/mingw81_64/include/QtCore/qstring.h \
- E:/Qt/5.15.2/mingw81_64/include/QtCore/qchar.h \
+CMakeFiles/qt_learning_4_2.dir/src/main.cpp.obj: \
+ C:\Users\admin\code\QT\qt_learning_4_2\src\main.cpp \
+ E:/Qt/5.15.2/mingw81_64/include/QtWidgets/QApplication \
+ E:/Qt/5.15.2/mingw81_64/include/QtWidgets/qapplication.h \
+ E:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h \
+ E:/Qt/5.15.2/mingw81_64/include/QtGui/qtguiglobal.h \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qglobal.h \
  D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/type_traits \
  D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -84,6 +85,11 @@ CMakeFiles/qt_learning_4_1.dir/src/widget.cpp.obj: \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qglobalstatic.h \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qnumeric.h \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qversiontagging.h \
+ E:/Qt/5.15.2/mingw81_64/include/QtGui/qtgui-config.h \
+ E:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h \
+ E:/Qt/5.15.2/mingw81_64/include/QtCore/qcoreapplication.h \
+ E:/Qt/5.15.2/mingw81_64/include/QtCore/qstring.h \
+ E:/Qt/5.15.2/mingw81_64/include/QtCore/qchar.h \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qbytearray.h \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qrefcount.h \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qnamespace.h \
@@ -173,14 +179,13 @@ CMakeFiles/qt_learning_4_1.dir/src/widget.cpp.obj: \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qstringliteral.h \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qstringalgorithms.h \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qstringview.h \
- C:/Users/admin/code/QT/qt_learning_4_1/build/ui_widget.h \
- E:/Qt/5.15.2/mingw81_64/include/QtCore/QVariant \
- E:/Qt/5.15.2/mingw81_64/include/QtCore/qvariant.h \
+ E:/Qt/5.15.2/mingw81_64/include/QtCore/qobject.h \
+ E:/Qt/5.15.2/mingw81_64/include/QtCore/qobjectdefs.h \
+ E:/Qt/5.15.2/mingw81_64/include/QtCore/qobjectdefs_impl.h \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qlist.h \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qiterator.h \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qhashfunctions.h \
- E:/Qt/5.15.2/mingw81_64/include/QtCore/qstring.h \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qpair.h \
  D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/numeric \
  D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_numeric.h \
@@ -215,19 +220,14 @@ CMakeFiles/qt_learning_4_1.dir/src/widget.cpp.obj: \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qstringlist.h \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qregexp.h \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qstringmatcher.h \
+ E:/Qt/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qmetatype.h \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qcontainerfwd.h \
- E:/Qt/5.15.2/mingw81_64/include/QtCore/qobjectdefs.h \
- E:/Qt/5.15.2/mingw81_64/include/QtCore/qobjectdefs_impl.h \
  D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/map \
  D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_tree.h \
  D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_map.h \
  D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_multimap.h \
- E:/Qt/5.15.2/mingw81_64/include/QtCore/qmap.h \
- E:/Qt/5.15.2/mingw81_64/include/QtCore/qhash.h \
- E:/Qt/5.15.2/mingw81_64/include/QtCore/qobject.h \
- E:/Qt/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qobject_impl.h \
  D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/chrono \
  D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/chrono.h \
@@ -235,14 +235,6 @@ CMakeFiles/qt_learning_4_1.dir/src/widget.cpp.obj: \
  D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/limits \
  D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ctime \
  D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/parse_numbers.h \
- D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/variant \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/QApplication \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/qapplication.h \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h \
- E:/Qt/5.15.2/mingw81_64/include/QtGui/qtguiglobal.h \
- E:/Qt/5.15.2/mingw81_64/include/QtGui/qtgui-config.h \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h \
- E:/Qt/5.15.2/mingw81_64/include/QtCore/qcoreapplication.h \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qcoreevent.h \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qeventloop.h \
  E:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h \
@@ -255,20 +247,16 @@ CMakeFiles/qt_learning_4_1.dir/src/widget.cpp.obj: \
  E:/Qt/5.15.2/mingw81_64/include/QtGui/qinputmethod.h \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qlocale.h \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qvariant.h \
+ E:/Qt/5.15.2/mingw81_64/include/QtCore/qmap.h \
+ E:/Qt/5.15.2/mingw81_64/include/QtCore/qhash.h \
+ D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/variant \
  E:/Qt/5.15.2/mingw81_64/include/QtCore/qshareddata.h \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/QGridLayout \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/qgridlayout.h \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/qlayout.h \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/qlayoutitem.h \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h \
- E:/Qt/5.15.2/mingw81_64/include/QtCore/qrect.h \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/qboxlayout.h \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/qgridlayout.h \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/QLabel \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/qlabel.h \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/qframe.h \
+ C:/Users/admin/code/QT/qt_learning_4_2/include/mainwindow.h \
+ E:/Qt/5.15.2/mingw81_64/include/QtWidgets/QMainWindow \
+ E:/Qt/5.15.2/mingw81_64/include/QtWidgets/qmainwindow.h \
  E:/Qt/5.15.2/mingw81_64/include/QtWidgets/qwidget.h \
  E:/Qt/5.15.2/mingw81_64/include/QtGui/qpaintdevice.h \
+ E:/Qt/5.15.2/mingw81_64/include/QtCore/qrect.h \
  E:/Qt/5.15.2/mingw81_64/include/QtGui/qpalette.h \
  E:/Qt/5.15.2/mingw81_64/include/QtGui/qcolor.h \
  E:/Qt/5.15.2/mingw81_64/include/QtGui/qrgb.h \
@@ -299,22 +287,7 @@ CMakeFiles/qt_learning_4_1.dir/src/widget.cpp.obj: \
  E:/Qt/5.15.2/mingw81_64/include/QtGui/qfont.h \
  E:/Qt/5.15.2/mingw81_64/include/QtGui/qfontmetrics.h \
  E:/Qt/5.15.2/mingw81_64/include/QtGui/qfontinfo.h \
+ E:/Qt/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h \
  E:/Qt/5.15.2/mingw81_64/include/QtGui/qkeysequence.h \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/QLineEdit \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/qlineedit.h \
- E:/Qt/5.15.2/mingw81_64/include/QtGui/qtextcursor.h \
- E:/Qt/5.15.2/mingw81_64/include/QtGui/qtextformat.h \
- E:/Qt/5.15.2/mingw81_64/include/QtGui/qpen.h \
- E:/Qt/5.15.2/mingw81_64/include/QtGui/qtextoption.h \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/QPushButton \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/qpushbutton.h \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/qabstractbutton.h \
- E:/Qt/5.15.2/mingw81_64/include/QtGui/qicon.h \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/QSpacerItem \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/qlayoutitem.h \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/QVBoxLayout \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/qboxlayout.h \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/QWidget \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/qwidget.h \
- C:/Users/admin/code/QT/qt_learning_4_1/include/widget.h \
- E:/Qt/5.15.2/mingw81_64/include/QtWidgets/QWidget
+ E:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
+ E:/Qt/5.15.2/mingw81_64/include/QtGui/qicon.h

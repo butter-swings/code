@@ -1,0 +1,7 @@
+-IC:/Users/admin/code/QT/qt_learning_4_2/include
+-IC:/Users/admin/code/QT/qt_learning_4_2
+-IC:/Users/admin/code/QT/qt_learning_4_2/build
+-DWIN32
+-o
+C:/Users/admin/code/QT/qt_learning_4_2/build/include/moc_mainwindow.cpp
+C:/Users/admin/code/QT/qt_learning_4_2/include/mainwindow.h
