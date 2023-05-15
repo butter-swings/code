@@ -17,10 +17,10 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include/)
 # QT5 PATH
 
 # MSVC2019_64
-set(QT5_PATH "D:/Qt/5.15.2/msvc2019_64/lib/cmake")
+# set(QT5_PATH "D:/Qt/5.15.2/msvc2019_64/lib/cmake")
 
 # GCC
-# set(QT5_PATH "D:/Qt/5.15.2/mingw81_64/lib/cmake")
+set(QT5_PATH "D:/Qt/5.15.2/mingw81_64/lib/cmake")
 set(CMAKE_PREFIX_PATH ${QT5_PATH})
 
 # components

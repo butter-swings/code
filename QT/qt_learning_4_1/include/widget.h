@@ -18,6 +18,10 @@ public:
 
 private:
   Ui::Widget *ui;
+
+private slots:
+  void on_btnDec_clicked();
+  void on_btnCal_clicked();
 };
 
 #endif  // WIDGET_H

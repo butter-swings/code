@@ -4,20 +4,20 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "D:/ScoopApp/Scoop/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
       - "CMakeLists.txt:3 (project)"
     message: |
-      The system is: Windows - 6.2.9200 - AMD64
+      The system is: Windows - 10.0.19045 - AMD64
   -
     kind: "message-v1"
     backtrace:
-      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "D:/ScoopApp/Scoop/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/ScoopApp/Scoop/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/ScoopApp/Scoop/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:3 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: D:/ScoopApp/Scoop/apps/llvm/current/bin/clang++.exe 
+      Compiler: D:/ScoopApp/Scoop/apps/mingw/current/bin/g++.exe 
       Build flags: 
       Id flags:  
       
@@ -27,40 +27,20 @@ events:
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
-      The CXX compiler identification is Clang, found in:
-        C:/Users/zhu14/code/QT/qt_learing_2_3/build/CMakeFiles/3.26.3/CompilerIdCXX/a.exe
+      The CXX compiler identification is GNU, found in:
+        C:/Users/zhu14/code/QT/qt_learning_2_3/build/CMakeFiles/3.26.3/CompilerIdCXX/a.exe
       
-  -
-    kind: "message-v1"
-    backtrace:
-      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
-      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
-      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:3 (project)"
-    message: |
-      Detecting CXX compiler /showIncludes prefix:
-        
-  -
-    kind: "message-v1"
-    backtrace:
-      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
-      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
-      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:3 (project)"
-    message: |
-      Detecting CXX compiler /showIncludes prefix:
-        
   -
     kind: "try_compile-v1"
     backtrace:
-      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "D:/ScoopApp/Scoop/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/ScoopApp/Scoop/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:3 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/zhu14/code/QT/qt_learing_2_3/build/CMakeFiles/CMakeScratch/TryCompile-zynkng"
-      binary: "C:/Users/zhu14/code/QT/qt_learing_2_3/build/CMakeFiles/CMakeScratch/TryCompile-zynkng"
+      source: "C:/Users/zhu14/code/QT/qt_learning_2_3/build/CMakeFiles/CMakeScratch/TryCompile-vl3cd9"
+      binary: "C:/Users/zhu14/code/QT/qt_learning_2_3/build/CMakeFiles/CMakeScratch/TryCompile-vl3cd9"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -68,64 +48,272 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/zhu14/code/QT/qt_learing_2_3/build/CMakeFiles/CMakeScratch/TryCompile-zynkng
+        Change Dir: C:/Users/zhu14/code/QT/qt_learning_2_3/build/CMakeFiles/CMakeScratch/TryCompile-vl3cd9
         
-        Run Build Command(s):D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/current/bin/ninja.exe -v cmTC_7ad7c && [1/2] D:\\ScoopApp\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_7ad7c.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_7ad7c.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_7ad7c.dir/CMakeCXXCompilerABI.cpp.obj -c D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
-        [2/2] cmd.exe /C "cd . && D:\\ScoopApp\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_7ad7c.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_7ad7c.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_7ad7c.lib -Xlinker /pdb:cmTC_7ad7c.pdb -Xlinker /version:0.0     && cd ."
+        Run Build Command(s):D:/ScoopApp/Scoop/apps/cmake/3.26.3/bin/cmake.exe -E env VERBOSE=1 D:/ScoopApp/Scoop/apps/mingw/current/bin/mingw32-make.exe -f Makefile cmTC_fc01d/fast && D:/ScoopApp/Scoop/apps/mingw/current/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_fc01d.dir\\build.make CMakeFiles/cmTC_fc01d.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/zhu14/code/QT/qt_learning_2_3/build/CMakeFiles/CMakeScratch/TryCompile-vl3cd9'
+        Building CXX object CMakeFiles/cmTC_fc01d.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\ScoopApp\\Scoop\\apps\\mingw\\current\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_fc01d.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\ScoopApp\\Scoop\\apps\\cmake\\3.26.3\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=D:\\ScoopApp\\Scoop\\apps\\mingw\\current\\bin\\g++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-12.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev2, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64/opt/include -I/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-zlib-static/include -I/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64/opt/include -I/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-zlib-static/include -I/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64/opt/include -I/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-zlib-static/include -I/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64/opt/lib -L/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-zlib-static/lib -L/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/c/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.2.0 (x86_64-posix-seh-rev2, Built by MinGW-W64 project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_fc01d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_fc01d.dir\\'
+         D:/ScoopApp/Scoop/apps/mingw/current/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1plus.exe -quiet -v -iprefix D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/ -D_REENTRANT D:\\ScoopApp\\Scoop\\apps\\cmake\\3.26.3\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_fc01d.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\zhu14\\AppData\\Local\\Temp\\ccJBj2eo.s
+        GNU C++17 (x86_64-posix-seh-rev2, Built by MinGW-W64 project) version 12.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"
+        ignoring duplicate directory "D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"
+        ignoring duplicate directory "D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/include"
+        ignoring nonexistent directory "C:/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"
+        ignoring duplicate directory "D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"
+        ignoring duplicate directory "D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++
+         D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32
+         D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward
+         D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include
+         D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed
+         D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        GNU C++17 (x86_64-posix-seh-rev2, Built by MinGW-W64 project) version 12.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: bd871182343e24686b6070b103904810
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_fc01d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_fc01d.dir\\'
+         D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_fc01d.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\zhu14\\AppData\\Local\\Temp\\ccJBj2eo.s
+        GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39
+        COMPILER_PATH=D:/ScoopApp/Scoop/apps/mingw/current/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/;D:/ScoopApp/Scoop/apps/mingw/current/bin/../libexec/gcc/;D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/;D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/;D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/;D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/;D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_fc01d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_fc01d.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_fc01d.exe
+        D:\\ScoopApp\\Scoop\\apps\\cmake\\3.26.3\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_fc01d.dir\\link.txt --verbose=1
+        D:\\ScoopApp\\Scoop\\apps\\cmake\\3.26.3\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_fc01d.dir/objects.a
+        D:\\ScoopApp\\Scoop\\apps\\mingw\\current\\bin\\ar.exe qc CMakeFiles\\cmTC_fc01d.dir/objects.a @CMakeFiles\\cmTC_fc01d.dir\\objects1.rsp
+        D:\\ScoopApp\\Scoop\\apps\\mingw\\current\\bin\\g++.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_fc01d.dir/objects.a -Wl,--no-whole-archive -o cmTC_fc01d.exe -Wl,--out-implib,libcmTC_fc01d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=D:\\ScoopApp\\Scoop\\apps\\mingw\\current\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=D:/ScoopApp/Scoop/apps/mingw/current/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-12.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev2, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64/opt/include -I/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-zlib-static/include -I/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64/opt/include -I/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-zlib-static/include -I/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64/opt/include -I/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-zlib-static/include -I/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64/opt/lib -L/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-zlib-static/lib -L/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/c/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.2.0 (x86_64-posix-seh-rev2, Built by MinGW-W64 project) 
+        COMPILER_PATH=D:/ScoopApp/Scoop/apps/mingw/current/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/;D:/ScoopApp/Scoop/apps/mingw/current/bin/../libexec/gcc/;D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/;D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/;D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/;D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/;D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fc01d.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_fc01d.'
+         D:/ScoopApp/Scoop/apps/mingw/current/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin D:/ScoopApp/Scoop/apps/mingw/current/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=D:/ScoopApp/Scoop/apps/mingw/current/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\zhu14\\AppData\\Local\\Temp\\ccr08OLT.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64 -m i386pep -Bdynamic -o cmTC_fc01d.exe D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -LD:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -LD:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc -LD:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -LD:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -LD:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. --whole-archive CMakeFiles\\cmTC_fc01d.dir/objects.a --no-whole-archive --out-implib libcmTC_fc01d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fc01d.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_fc01d.'
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/zhu14/code/QT/qt_learning_2_3/build/CMakeFiles/CMakeScratch/TryCompile-vl3cd9'
         
       exitCode: 0
   -
-    kind: "try_compile-v1"
+    kind: "message-v1"
     backtrace:
-      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
-      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
-      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
-      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
-      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "D:/ScoopApp/Scoop/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "D:/ScoopApp/Scoop/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:3 (project)"
-    checks:
-      - "Detecting CXX compile features"
-    directories:
-      source: "C:/Users/zhu14/code/QT/qt_learing_2_3/build/CMakeFiles/CMakeScratch/TryCompile-u8au8p"
-      binary: "C:/Users/zhu14/code/QT/qt_learing_2_3/build/CMakeFiles/CMakeScratch/TryCompile-u8au8p"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_EXE_LINKER_FLAGS: ""
-    buildResult:
-      variable: "CMAKE_CXX_FEATURE_TEST"
-      cached: true
-      stdout: |
-        Change Dir: C:/Users/zhu14/code/QT/qt_learing_2_3/build/CMakeFiles/CMakeScratch/TryCompile-u8au8p
-        
-        Run Build Command(s):D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/current/bin/ninja.exe -v cmTC_0e949 && [1/2] D:\\ScoopApp\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_0e949.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_0e949.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_0e949.dir/feature_tests.cxx.obj -c C:/Users/zhu14/code/QT/qt_learing_2_3/build/CMakeFiles/CMakeScratch/TryCompile-u8au8p/feature_tests.cxx
-        [2/2] cmd.exe /C "cd . && D:\\ScoopApp\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_0e949.dir/feature_tests.cxx.obj -o cmTC_0e949.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_0e949.lib -Xlinker /pdb:cmTC_0e949.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++]
+          add: [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32]
+          add: [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward]
+          add: [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include]
+          add: [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed]
+          add: [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++] ==> [D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++]
+        collapse include dir [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32] ==> [D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32]
+        collapse include dir [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward] ==> [D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward]
+        collapse include dir [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include] ==> [D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include]
+        collapse include dir [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed] ==> [D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed]
+        collapse include dir [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include] ==> [D:/ScoopApp/Scoop/apps/mingw/current/x86_64-w64-mingw32/include]
+        implicit include dirs: [D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++;D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32;D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward;D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include;D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed;D:/ScoopApp/Scoop/apps/mingw/current/x86_64-w64-mingw32/include]
+      
+      
   -
-    kind: "try_compile-v1"
+    kind: "message-v1"
     backtrace:
-      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
-      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
-      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
-      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
-      - "D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/12.2.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "D:/ScoopApp/Scoop/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "D:/ScoopApp/Scoop/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:3 (project)"
-    checks:
-      - "Detecting CXX compile features"
-    directories:
-      source: "C:/Users/zhu14/code/QT/qt_learing_2_3/build/CMakeFiles/CMakeScratch/TryCompile-jupxwb"
-      binary: "C:/Users/zhu14/code/QT/qt_learing_2_3/build/CMakeFiles/CMakeScratch/TryCompile-jupxwb"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_EXE_LINKER_FLAGS: ""
-    buildResult:
-      variable: "CMAKE_CXX_FEATURE_TEST"
-      cached: true
-      stdout: |
-        Change Dir: C:/Users/zhu14/code/QT/qt_learing_2_3/build/CMakeFiles/CMakeScratch/TryCompile-jupxwb
-        
-        Run Build Command(s):D:/ScoopApp/Scoop/apps/mingw-winlibs-ucrt/current/bin/ninja.exe -v cmTC_914af && [1/2] D:\\ScoopApp\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_914af.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_914af.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_914af.dir/feature_tests.cxx.obj -c C:/Users/zhu14/code/QT/qt_learing_2_3/build/CMakeFiles/CMakeScratch/TryCompile-jupxwb/feature_tests.cxx
-        [2/2] cmd.exe /C "cd . && D:\\ScoopApp\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_914af.dir/feature_tests.cxx.obj -o cmTC_914af.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_914af.lib -Xlinker /pdb:cmTC_914af.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: C:/Users/zhu14/code/QT/qt_learning_2_3/build/CMakeFiles/CMakeScratch/TryCompile-vl3cd9]
+        ignore line: []
+        ignore line: [Run Build Command(s):D:/ScoopApp/Scoop/apps/cmake/3.26.3/bin/cmake.exe -E env VERBOSE=1 D:/ScoopApp/Scoop/apps/mingw/current/bin/mingw32-make.exe -f Makefile cmTC_fc01d/fast && D:/ScoopApp/Scoop/apps/mingw/current/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_fc01d.dir\\build.make CMakeFiles/cmTC_fc01d.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/zhu14/code/QT/qt_learning_2_3/build/CMakeFiles/CMakeScratch/TryCompile-vl3cd9']
+        ignore line: [Building CXX object CMakeFiles/cmTC_fc01d.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\ScoopApp\\Scoop\\apps\\mingw\\current\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_fc01d.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\ScoopApp\\Scoop\\apps\\cmake\\3.26.3\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\ScoopApp\\Scoop\\apps\\mingw\\current\\bin\\g++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-12.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev2, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64/opt/include -I/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-zlib-static/include -I/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64/opt/include -I/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-zlib-static/include -I/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64/opt/include -I/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-zlib-static/include -I/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64/opt/lib -L/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-zlib-static/lib -L/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/c/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.2.0 (x86_64-posix-seh-rev2  Built by MinGW-W64 project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_fc01d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_fc01d.dir\\']
+        ignore line: [ D:/ScoopApp/Scoop/apps/mingw/current/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1plus.exe -quiet -v -iprefix D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/ -D_REENTRANT D:\\ScoopApp\\Scoop\\apps\\cmake\\3.26.3\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_fc01d.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\zhu14\\AppData\\Local\\Temp\\ccJBj2eo.s]
+        ignore line: [GNU C++17 (x86_64-posix-seh-rev2  Built by MinGW-W64 project) version 12.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"]
+        ignore line: [ignoring duplicate directory "D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++]
+        ignore line: [ D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward]
+        ignore line: [ D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include]
+        ignore line: [ D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed]
+        ignore line: [ D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (x86_64-posix-seh-rev2  Built by MinGW-W64 project) version 12.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: bd871182343e24686b6070b103904810]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_fc01d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_fc01d.dir\\']
+        ignore line: [ D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_fc01d.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\zhu14\\AppData\\Local\\Temp\\ccJBj2eo.s]
+        ignore line: [GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39]
+        ignore line: [COMPILER_PATH=D:/ScoopApp/Scoop/apps/mingw/current/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/]
+        ignore line: [D:/ScoopApp/Scoop/apps/mingw/current/bin/../libexec/gcc/]
+        ignore line: [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/]
+        ignore line: [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/]
+        ignore line: [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/]
+        ignore line: [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_fc01d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_fc01d.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_fc01d.exe]
+        ignore line: [D:\\ScoopApp\\Scoop\\apps\\cmake\\3.26.3\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_fc01d.dir\\link.txt --verbose=1]
+        ignore line: [D:\\ScoopApp\\Scoop\\apps\\cmake\\3.26.3\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_fc01d.dir/objects.a]
+        ignore line: [D:\\ScoopApp\\Scoop\\apps\\mingw\\current\\bin\\ar.exe qc CMakeFiles\\cmTC_fc01d.dir/objects.a @CMakeFiles\\cmTC_fc01d.dir\\objects1.rsp]
+        ignore line: [D:\\ScoopApp\\Scoop\\apps\\mingw\\current\\bin\\g++.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_fc01d.dir/objects.a -Wl --no-whole-archive -o cmTC_fc01d.exe -Wl --out-implib libcmTC_fc01d.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\ScoopApp\\Scoop\\apps\\mingw\\current\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/ScoopApp/Scoop/apps/mingw/current/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-12.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev2, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64/opt/include -I/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-zlib-static/include -I/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64/opt/include -I/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-zlib-static/include -I/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64/opt/include -I/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-zlib-static/include -I/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64/opt/lib -L/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-zlib-static/lib -L/c/mingw-builds/ucrt64-seh-posix/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/c/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.2.0 (x86_64-posix-seh-rev2  Built by MinGW-W64 project) ]
+        ignore line: [COMPILER_PATH=D:/ScoopApp/Scoop/apps/mingw/current/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/]
+        ignore line: [D:/ScoopApp/Scoop/apps/mingw/current/bin/../libexec/gcc/]
+        ignore line: [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/]
+        ignore line: [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/]
+        ignore line: [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/]
+        ignore line: [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fc01d.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_fc01d.']
+        link line: [ D:/ScoopApp/Scoop/apps/mingw/current/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin D:/ScoopApp/Scoop/apps/mingw/current/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=D:/ScoopApp/Scoop/apps/mingw/current/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\zhu14\\AppData\\Local\\Temp\\ccr08OLT.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64 -m i386pep -Bdynamic -o cmTC_fc01d.exe D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -LD:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -LD:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc -LD:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -LD:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -LD:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. --whole-archive CMakeFiles\\cmTC_fc01d.dir/objects.a --no-whole-archive --out-implib libcmTC_fc01d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o]
+          arg [D:/ScoopApp/Scoop/apps/mingw/current/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [D:/ScoopApp/Scoop/apps/mingw/current/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=D:/ScoopApp/Scoop/apps/mingw/current/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\zhu14\\AppData\\Local\\Temp\\ccr08OLT.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=C:/mingw-builds/ucrt64-seh-posix/x86_64-1220-posix-seh-ucrt-rt_v10-rev2/mingw64] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_fc01d.exe] ==> ignore
+          arg [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o] ==> obj [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o]
+          arg [-LD:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0] ==> dir [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0]
+          arg [-LD:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc] ==> dir [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc]
+          arg [-LD:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LD:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib] ==> dir [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib]
+          arg [-LD:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LD:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../..] ==> dir [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../..]
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_fc01d.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_fc01d.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-liconv] ==> lib [iconv]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o] ==> obj [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o]
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [D:/ScoopApp/Scoop/apps/mingw/current/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o] ==> [D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o]
+        collapse obj [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o] ==> [D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o]
+        collapse library dir [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0] ==> [D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0]
+        collapse library dir [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc] ==> [D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc]
+        collapse library dir [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [D:/ScoopApp/Scoop/apps/mingw/current/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib] ==> [D:/ScoopApp/Scoop/apps/mingw/current/lib]
+        collapse library dir [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib] ==> [D:/ScoopApp/Scoop/apps/mingw/current/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/ScoopApp/Scoop/apps/mingw/current/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../..] ==> [D:/ScoopApp/Scoop/apps/mingw/current/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex;kernel32]
+        implicit objs: [D:/ScoopApp/Scoop/apps/mingw/current/x86_64-w64-mingw32/lib/crt2.o;D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o;D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o]
+        implicit dirs: [D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0;D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc;D:/ScoopApp/Scoop/apps/mingw/current/x86_64-w64-mingw32/lib;D:/ScoopApp/Scoop/apps/mingw/current/lib]
+        implicit fwks: []
+      
+      
 ...

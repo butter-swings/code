@@ -1,5 +1,4 @@
 C:/Users/zhu14/code/QT/qt_learning_3_1/build/CMakeFiles/qt_learning_3_1.dir
 C:/Users/zhu14/code/QT/qt_learning_3_1/build/CMakeFiles/edit_cache.dir
 C:/Users/zhu14/code/QT/qt_learning_3_1/build/CMakeFiles/rebuild_cache.dir
-C:/Users/zhu14/code/QT/qt_learning_3_1/build/CMakeFiles/qt_learning_3_1_autogen_timestamp_deps.dir
 C:/Users/zhu14/code/QT/qt_learning_3_1/build/CMakeFiles/qt_learning_3_1_autogen.dir

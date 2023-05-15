@@ -1,9 +1,0 @@
-# ninja log v5
-6	592	7049821562529599	qt_learing_2_3_autogen/timestamp	25bad1c3d9536479
-6	592	7049821562529599	qt_learing_2_3_autogen/mocs_compilation.cpp	25bad1c3d9536479
-6	592	7049821562529599	C:/Users/zhu14/code/QT/qt_learing_2_3/build/qt_learing_2_3_autogen/timestamp	25bad1c3d9536479
-6	592	7049821562529599	C:/Users/zhu14/code/QT/qt_learing_2_3/build/qt_learing_2_3_autogen/mocs_compilation.cpp	25bad1c3d9536479
-593	3349	7049821591048764	CMakeFiles/qt_learing_2_3.dir/qt_learing_2_3_autogen/mocs_compilation.cpp.obj	a84a382219acd69f
-683	3504	7049821592644480	CMakeFiles/qt_learing_2_3.dir/dialog.cpp.obj	e7137898c1978006
-637	3514	7049821592774138	CMakeFiles/qt_learing_2_3.dir/main.cpp.obj	9df08feaa491dad4
-3515	3823	7049821595562397	C:/Users/zhu14/code/QT/qt_learing_2_3/bin/qt_learing_2_3.exe	eb5ad258fa7dc27b

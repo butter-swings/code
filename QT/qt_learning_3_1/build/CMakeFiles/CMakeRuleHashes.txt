@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+b1cf1ee473466ce93ba4363a9dfb8752 CMakeFiles/qt_learning_3_1_autogen
+e4bb32422db9c8ef811a691c3d0c1b10 include/moc_mainwindow.cpp
+2b905d9591ee61d74f051b41b613db69 include/moc_person.cpp
+5183059eb2e85c31a52effb49d21c056 ui_mainwindow.h

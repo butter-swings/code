@@ -1,0 +1,51 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"multiConfig" : false,
+			"name" : "MinGW Makefiles"
+		},
+		"paths" : 
+		{
+			"cmake" : "D:/ScoopApp/Scoop/apps/cmake/3.26.3/bin/cmake.exe",
+			"cpack" : "D:/ScoopApp/Scoop/apps/cmake/3.26.3/bin/cpack.exe",
+			"ctest" : "D:/ScoopApp/Scoop/apps/cmake/3.26.3/bin/ctest.exe",
+			"root" : "D:/ScoopApp/Scoop/apps/cmake/3.26.3/share/cmake-3.26"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 3,
+			"minor" : 26,
+			"patch" : 3,
+			"string" : "3.26.3",
+			"suffix" : ""
+		}
+	},
+	"objects" : 
+	[
+		{
+			"jsonFile" : "codemodel-v2-5dab1663b1d2b31521f8.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 5
+			}
+		}
+	],
+	"reply" : 
+	{
+		"codemodel-v2" : 
+		{
+			"jsonFile" : "codemodel-v2-5dab1663b1d2b31521f8.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 5
+			}
+		}
+	}
+}

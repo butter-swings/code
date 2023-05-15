@@ -1,9 +1,8 @@
 CMakeFiles/qt_learning_4_1.dir/src/widget.cpp.obj: \
  C:\Users\zhu14\code\QT\qt_learning_4_1\src\widget.cpp \
- C:/Users/zhu14/code/QT/qt_learning_4_1/build/ui_widget.h \
- D:/Qt/5.15.2/mingw81_64/include/QtCore/QVariant \
- D:/Qt/5.15.2/mingw81_64/include/QtCore/qvariant.h \
- D:/Qt/5.15.2/mingw81_64/include/QtCore/qatomic.h \
+ D:/Qt/5.15.2/mingw81_64/include/QtCore/QString \
+ D:/Qt/5.15.2/mingw81_64/include/QtCore/qstring.h \
+ D:/Qt/5.15.2/mingw81_64/include/QtCore/qchar.h \
  D:/Qt/5.15.2/mingw81_64/include/QtCore/qglobal.h \
  D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/type_traits \
  D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -73,6 +72,7 @@ CMakeFiles/qt_learning_4_1.dir/src/widget.cpp.obj: \
  D:/Qt/5.15.2/mingw81_64/include/QtCore/qsysinfo.h \
  D:/Qt/5.15.2/mingw81_64/include/QtCore/qlogging.h \
  D:/Qt/5.15.2/mingw81_64/include/QtCore/qflags.h \
+ D:/Qt/5.15.2/mingw81_64/include/QtCore/qatomic.h \
  D:/Qt/5.15.2/mingw81_64/include/QtCore/qbasicatomic.h \
  D:/Qt/5.15.2/mingw81_64/include/QtCore/qatomic_cxx11.h \
  D:/Qt/5.15.2/mingw81_64/include/QtCore/qgenericatomic.h \
@@ -170,15 +170,17 @@ CMakeFiles/qt_learning_4_1.dir/src/widget.cpp.obj: \
  D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/typeinfo \
  D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/nested_exception.h \
  D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/streambuf.tcc \
+ D:/Qt/5.15.2/mingw81_64/include/QtCore/qstringliteral.h \
+ D:/Qt/5.15.2/mingw81_64/include/QtCore/qstringalgorithms.h \
+ D:/Qt/5.15.2/mingw81_64/include/QtCore/qstringview.h \
+ C:/Users/zhu14/code/QT/qt_learning_4_1/build/ui_widget.h \
+ D:/Qt/5.15.2/mingw81_64/include/QtCore/QVariant \
+ D:/Qt/5.15.2/mingw81_64/include/QtCore/qvariant.h \
  D:/Qt/5.15.2/mingw81_64/include/QtCore/qlist.h \
  D:/Qt/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
  D:/Qt/5.15.2/mingw81_64/include/QtCore/qiterator.h \
  D:/Qt/5.15.2/mingw81_64/include/QtCore/qhashfunctions.h \
  D:/Qt/5.15.2/mingw81_64/include/QtCore/qstring.h \
- D:/Qt/5.15.2/mingw81_64/include/QtCore/qchar.h \
- D:/Qt/5.15.2/mingw81_64/include/QtCore/qstringliteral.h \
- D:/Qt/5.15.2/mingw81_64/include/QtCore/qstringalgorithms.h \
- D:/Qt/5.15.2/mingw81_64/include/QtCore/qstringview.h \
  D:/Qt/5.15.2/mingw81_64/include/QtCore/qpair.h \
  D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/numeric \
  D:/ScoopApp/Scoop/apps/mingw/current/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_numeric.h \

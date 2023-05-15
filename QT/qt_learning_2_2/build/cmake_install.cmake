@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/ScoopApp/Scoop/apps/llvm/current/bin/llvm-objdump.exe")
+  set(CMAKE_OBJDUMP "D:/ScoopApp/Scoop/apps/mingw/current/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
