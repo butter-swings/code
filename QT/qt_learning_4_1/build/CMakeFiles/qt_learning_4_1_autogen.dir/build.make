@@ -52,10 +52,10 @@ RM = D:\ScoopApp\Scoop\apps\cmake\3.26.3\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\zhu14\code\QT\qt_learning_4_1
+CMAKE_SOURCE_DIR = C:\Users\admin\code\QT\qt_learning_4_1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\zhu14\code\QT\qt_learning_4_1\build
+CMAKE_BINARY_DIR = C:\Users\admin\code\QT\qt_learning_4_1\build
 
 # Utility rule file for qt_learning_4_1_autogen.
 
@@ -66,8 +66,8 @@ include CMakeFiles/qt_learning_4_1_autogen.dir/compiler_depend.make
 include CMakeFiles/qt_learning_4_1_autogen.dir/progress.make
 
 CMakeFiles/qt_learning_4_1_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\zhu14\code\QT\qt_learning_4_1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target qt_learning_4_1"
-	D:\ScoopApp\Scoop\apps\cmake\3.26.3\bin\cmake.exe -E cmake_autogen C:/Users/zhu14/code/QT/qt_learning_4_1/build/CMakeFiles/qt_learning_4_1_autogen.dir/AutogenInfo.json Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\admin\code\QT\qt_learning_4_1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target qt_learning_4_1"
+	D:\ScoopApp\Scoop\apps\cmake\3.26.3\bin\cmake.exe -E cmake_autogen C:/Users/admin/code/QT/qt_learning_4_1/build/CMakeFiles/qt_learning_4_1_autogen.dir/AutogenInfo.json Debug
 
 qt_learning_4_1_autogen: CMakeFiles/qt_learning_4_1_autogen
 qt_learning_4_1_autogen: CMakeFiles/qt_learning_4_1_autogen.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/qt_learning_4_1_autogen.dir/clean:
 .PHONY : CMakeFiles/qt_learning_4_1_autogen.dir/clean
 
 CMakeFiles/qt_learning_4_1_autogen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\zhu14\code\QT\qt_learning_4_1 C:\Users\zhu14\code\QT\qt_learning_4_1 C:\Users\zhu14\code\QT\qt_learning_4_1\build C:\Users\zhu14\code\QT\qt_learning_4_1\build C:\Users\zhu14\code\QT\qt_learning_4_1\build\CMakeFiles\qt_learning_4_1_autogen.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\admin\code\QT\qt_learning_4_1 C:\Users\admin\code\QT\qt_learning_4_1 C:\Users\admin\code\QT\qt_learning_4_1\build C:\Users\admin\code\QT\qt_learning_4_1\build C:\Users\admin\code\QT\qt_learning_4_1\build\CMakeFiles\qt_learning_4_1_autogen.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/qt_learning_4_1_autogen.dir/depend
 

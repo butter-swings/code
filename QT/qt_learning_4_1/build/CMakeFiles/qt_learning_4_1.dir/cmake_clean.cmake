@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "C:/Users/zhu14/code/QT/qt_learning_4_1/bin/libqt_learning_4_1.dll.a"
-  "C:/Users/zhu14/code/QT/qt_learning_4_1/bin/qt_learning_4_1.exe"
-  "C:/Users/zhu14/code/QT/qt_learning_4_1/bin/qt_learning_4_1.exe.manifest"
-  "C:/Users/zhu14/code/QT/qt_learning_4_1/bin/qt_learning_4_1.pdb"
+  "C:/Users/admin/code/QT/qt_learning_4_1/bin/libqt_learning_4_1.dll.a"
+  "C:/Users/admin/code/QT/qt_learning_4_1/bin/qt_learning_4_1.exe"
+  "C:/Users/admin/code/QT/qt_learning_4_1/bin/qt_learning_4_1.exe.manifest"
+  "C:/Users/admin/code/QT/qt_learning_4_1/bin/qt_learning_4_1.pdb"
   "CMakeFiles/qt_learning_4_1_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/qt_learning_4_1_autogen.dir/ParseCache.txt"
   "qt_learning_4_1_autogen"

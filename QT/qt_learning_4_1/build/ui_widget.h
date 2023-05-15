@@ -51,7 +51,7 @@ public:
     {
         if (Widget->objectName().isEmpty())
             Widget->setObjectName(QString::fromUtf8("Widget"));
-        Widget->resize(442, 215);
+        Widget->resize(418, 179);
         verticalLayout_2 = new QVBoxLayout(Widget);
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         verticalLayout = new QVBoxLayout();

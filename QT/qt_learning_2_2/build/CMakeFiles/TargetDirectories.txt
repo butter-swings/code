@@ -1,5 +1,4 @@
-C:/Users/zhu14/code/QT/qt_learning_2_2/build/CMakeFiles/MainWindow.dir
-C:/Users/zhu14/code/QT/qt_learning_2_2/build/CMakeFiles/edit_cache.dir
-C:/Users/zhu14/code/QT/qt_learning_2_2/build/CMakeFiles/rebuild_cache.dir
-C:/Users/zhu14/code/QT/qt_learning_2_2/build/CMakeFiles/MainWindow_autogen_timestamp_deps.dir
-C:/Users/zhu14/code/QT/qt_learning_2_2/build/CMakeFiles/MainWindow_autogen.dir
+C:/Users/admin/code/QT/qt_learning_2_2/build/CMakeFiles/MainWindow.dir
+C:/Users/admin/code/QT/qt_learning_2_2/build/CMakeFiles/edit_cache.dir
+C:/Users/admin/code/QT/qt_learning_2_2/build/CMakeFiles/rebuild_cache.dir
+C:/Users/admin/code/QT/qt_learning_2_2/build/CMakeFiles/MainWindow_autogen.dir
